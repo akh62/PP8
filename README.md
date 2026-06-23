@@ -411,7 +411,8 @@ Bei der Umleitung auf `stdin` erhält das Programm seine Eingaben über die Stan
 #### Reflection Question
 
 * **Explain in your own words what the encryption and decryption processes are doing in both ciphers.**
-Bei der Caesar Verschlüsselung wird jeder Buchstabe im Alphabet um eine bestimmte Anzahl von Stellen verschoben. Bei der Entschlüsselung wird dieselbe Anzahl von Stelen wieder in die ein
+Bei der Caesar Verschlüsselung wird jeder Buchstabe im Alphabet um eine bestimmte Anzahl von Stellen verschoben. Bei der Entschlüsselung wird dieselbe Anzahl von Stellen wieder in die entgegegengesetzte richtung verschoben, sodass die ursprüngliche Eingabe wieder vorhanden ist.
+Bei der XOR Verschlüsselung hingegen, wird jedes einzelne Zeichen mit einem Schlüssel XOR Operation verknüpft
 ---
 
 **Remember:** Stop after **90 minutes** and record where you stopped.
