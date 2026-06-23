@@ -134,7 +134,9 @@ In this exercise you will:
 #### Reflection Questions
 
 1. **How do you pass a file name to a program using the `-i` and `-o` options?**
-2. **What are typical use cases for parameters versus flags? How do the differ from one another?**
+   Ein Dareiname wird direkt hinter der Option angegeben. Die option -i übergibt eine Eingabedagei und -o eine Ausgabedatei.
+3. **What are typical use cases for parameters versus flags? How do the differ from one another?**
+   Flags werden verwendet, um Funktionen ein- oder auszuschalten. Parameter werden genutzt, um zusätzliche Werte wie Zahlen, Texte oder Dateinamen an ein Programm zu übergeben. Der Unterschied ist, dass Flags keinen Wert benötigen, während Parameter immer eine zusätzliche Angabe brauchen.
 
 ---
 
@@ -187,6 +189,7 @@ In this exercise you will:
 #### Reflection Question
 
 * **Why is a run-to-completion (batch) approach often preferable to interactive input?**
+  Ein run-to-completion Ansatz ist oft besser, weil das Programm ohne Eingaben voll automatisch ausgeführt werden kann. Deswegen eignet es sich gut für Skripte, Automatisierung und die Verarbeitung großer Datenmengen. Außerdem ist es, durch die fehlende manuelle Eingabe, leichter die Programme zu reproduzieren.
 
 ---
 
@@ -218,7 +221,7 @@ In this exercise you will:
 #### Reflection Question
 
 * **What is the difference between redirecting to stdin and explicitly opening a file with `fopen`?**
-
+Bei der Umleitung auf `stdin` erhält das Programm seine Eingaben über die Standard-Eingabe, ohne den Dateinamen selbst zu kennen. Mit `fopen` öffnet das Programm eine bestimmte Datei direkt anhand ihres Dateinamens. Die Umleitung macht Programme flexibler, während `fopen` mehr Kontrolle über die verwendeten Dateien bietet.
 ---
 
 ### Task 5: Caesar Cipher & Prototype Asymmetric XOR Cipher
@@ -392,7 +395,7 @@ In this exercise you will:
    ```
 4. **Compile & link**:
 
-   ```bash
+   ```
    gcc -c solutions/cipher.c solutions/asym.c solutions/advanced_cipher.c
    gcc solutions/cipher.o solutions/asym.o solutions/advanced_cipher.o -o solutions/advanced_cipher
    ```
@@ -408,7 +411,7 @@ In this exercise you will:
 #### Reflection Question
 
 * **Explain in your own words what the encryption and decryption processes are doing in both ciphers.**
-
+Bei der Caesar Verschlüsselung wird jeder Buchstabe im Alphabet um eine bestimmte Anzahl von Stellen verschoben. Bei der Entschlüsselung wird dieselbe Anzahl von Stelen wieder in die ein
 ---
 
 **Remember:** Stop after **90 minutes** and record where you stopped.
