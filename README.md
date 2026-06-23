@@ -134,7 +134,7 @@ In this exercise you will:
 #### Reflection Questions
 
 1. **How do you pass a file name to a program using the `-i` and `-o` options?**
-   Ein Dareiname wird direkt hinter der Option angegeben. Die option -i übergibt eine Eingabedagei und -o eine Ausgabedatei.
+   Ein Dateiname wird direkt hinter der Option angegeben. Die option -i übergibt eine Eingabedagei und -o eine Ausgabedatei.
 3. **What are typical use cases for parameters versus flags? How do the differ from one another?**
    Flags werden verwendet, um Funktionen ein- oder auszuschalten. Parameter werden genutzt, um zusätzliche Werte wie Zahlen, Texte oder Dateinamen an ein Programm zu übergeben. Der Unterschied ist, dass Flags keinen Wert benötigen, während Parameter immer eine zusätzliche Angabe brauchen.
 
@@ -412,7 +412,7 @@ Bei der Umleitung auf `stdin` erhält das Programm seine Eingaben über die Stan
 
 * **Explain in your own words what the encryption and decryption processes are doing in both ciphers.**
 Bei der Caesar Verschlüsselung wird jeder Buchstabe im Alphabet um eine bestimmte Anzahl von Stellen verschoben. Bei der Entschlüsselung wird dieselbe Anzahl von Stellen wieder in die entgegegengesetzte richtung verschoben, sodass die ursprüngliche Eingabe wieder vorhanden ist.
-Bei der XOR Verschlüsselung hingegen, wird jedes einzelne Zeichen mit einem Schlüssel XOR Operation verknüpft
+Bei der XOR Verschlüsselung hingegen, wird jedes einzelne Zeichen mit einem Schlüssel über eine XOR Operation auf Bit Ebene verknüpft. Dadurch entsteht ein neuer Zeichenwert der nicht mehr lesbar ist. Weil die XOR Operation umkehrbar ist, kann man den selben Schlüssel erneut anwenden um die Verschlüsselung rückgängig zu machen. Die XOR Operation ist sicherer, da die Verschlüsselung auf Bit Ebene komplexer ist und weil es nur funktoniert wenn Sender und Empfänger den gleichen Schlüssel haben.
 ---
 
 **Remember:** Stop after **90 minutes** and record where you stopped.
